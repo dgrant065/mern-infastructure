@@ -1,0 +1,57 @@
+.GamesCard .image {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.image img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;    
+}
+
+.GamesCard .image:hover {
+    height: 450px;
+    width: 400px;
+}
+
+
+.GamesCard h1 {
+    font-size: medium;
+    width: 350px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.GamesCard > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    cursor: pointer;
+    justify-content: center;
+    
+    
+}
+
+.GamesCard > div:hover {
+    cursor: pointer;
+    position: relative;
+    width: 400px;
+    height: 450px;
+}
+
+.GamesCard {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: dimgray;
+    /* width: 400px;
+    height: 450px; */
+    margin: 50px 35px;
+}
+

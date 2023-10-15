@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
+const ensureLoggedIn = require('./config/ensureLoggedIn');
 // Always require and configure near the top
 require('dotenv').config();
 // Connect to the database
@@ -11,6 +12,7 @@ const app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
+
 
 // Configure both serve-favicon & static middleware
 // to serve from the production 'build' folder
@@ -25,6 +27,8 @@ const port = process.env.PORT || 3001;
 
 // Put API routes here, before the "catch all" route
 app.use('/api/users', require('./routes/api/users'));
+app.use('/api/games', ensureLoggedIn, require('./routes/api/games'));
+
 
 // The following "catch all" route (note the *) is necessary
 // to return the index.html on all non-AJAX/API requests
