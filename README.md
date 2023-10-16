@@ -3,12 +3,12 @@ Play-By-Play is a tool to allow you, the gamer, to explore and discover new gami
 
 # Screenshots
 Home Page:
-![Screenshot](https://imgur.com/tSmMSd6)
-![Screenshot](https://imgur.com/8bvyHyb)
-![Screenshot](https://imgur.com/eIZClYv)
+![Screenshot](https://i.imgur.com/tSmMSd6.png)
+![Screenshot](https://i.imgur.com/8bvyHyb.jpg)
+![Screenshot](https://i.imgur.com/eIZClYv.jpg)
 Game Details Page:
-![Screenshot](https://imgur.com/rmFvRBr)
-![Screenshot](https://imgur.com/VkrnieV)
+![Screenshot](https://i.imgur.com/rmFvRBr.png)
+![Screenshot](https://i.imgur.com/VkrnieV.png)
 
 # Technologies
 - HTML
