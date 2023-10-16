@@ -18,7 +18,7 @@ Game Details Page:
 - Bootstrap
 
 # Getting Started
-Click [here]() to view my app. From there you are able to browse any game and find detailed information about that game
+Click [here](https://playbyplay-7750eb5e31d4.herokuapp.com/) to view my app. From there you are able to browse any game and find detailed information about that game
 
 # Next Steps
 - Add search bar functionality
