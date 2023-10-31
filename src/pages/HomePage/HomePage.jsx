@@ -13,7 +13,6 @@ export default function HomePage() {
     }
     getGames() 
     
-    // console.log('HomePage rendered');
   }, []);
 
   const gamesList = games.map((game, idx) => <GamesCard game={game} key={idx}/>) 
